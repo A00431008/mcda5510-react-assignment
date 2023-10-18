@@ -2,7 +2,12 @@ import React from 'react';
 
 const Mytownpage = () => {
   return (
-    <div>Mytownpage</div>
+    <div className="city-image">
+        <div className="image-container">
+
+        </div>
+
+    </div>
   );
 };
 

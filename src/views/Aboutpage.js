@@ -1,8 +1,12 @@
 import React from 'react';
+import Aboutpagetext from '../components/Aboutpagetext';
 
 const Aboutpage = () => {
   return (
-    <div>Aboutpage</div>
+    <div className="content">
+        <Aboutpagetext />
+        <div className="photoContainer inline"></div>        
+    </div>
   );
 };
 

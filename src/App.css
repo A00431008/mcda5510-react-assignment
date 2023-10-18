@@ -1,18 +1,80 @@
-.App {
-  text-align: center;
+.container {
+  background-color: white;
+  width: 60rem;
+  min-height: 100vh;
+  margin: 0% 15%;
+  box-shadow: 5px 5px 30px black;
+  /* opacity: 0.95; */
+  backdrop-filter: blur(5px);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 75px;
+  background-color: #474787;
+  justify-content: space-between;
+}
+
+.links {
+  height: 65px;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  margin-top: 10px;
+}
+
+a {
+  margin-top: 10px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  background-color: slategray;
+  cursor: pointer;
+}
+
+a.selected {
+  font-weight: bold;
+  color: rgb(0, 255, 157);
+  border-bottom: 2px solid rgb(0, 255, 157);
+}
+
+.brand {
+  color: white;
+  margin-top: 15px;
+  margin-right: 50px;
+  font-size: 2rem;
+  width: 300px;
+  font-family: cursive;
+  pointer-events: none;
+  text-shadow: 5px 5px 5px black;
+}
+
+.content {
+  margin-left: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.photoContainer {
+  background-image: url(./images/photo.jpeg);
+  background-size: cover;
+  height: 300px;
+  width:300px;
+  margin-top: 15%;
+  margin-right: 5rem;
+  border: 3px solid black;
+  border-radius: 150px;
+  box-shadow: 10px 10px 20px slategray;
+}
+
+p {
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  font-family: cursive;
+  width: 50%;
+  text-align: justify;
+  /* text-shadow: 1px 1px 5px gray; */
 }

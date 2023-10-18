@@ -1,4 +1,5 @@
 import './App.css';
+import Navibar from './components/Navibar';
 import Aboutpage from './views/Aboutpage';
 import Mytownpage from './views/Mytownpage';
 import { 
@@ -19,7 +20,8 @@ const router = createBrowserRouter ([
 
 function App() {
   return (
-    <div>
+    <div className="container">
+      <Navibar />
       <RouterProvider router={router} />
     </div>
   );
