@@ -1,2 +1,4 @@
-Photo by <a href="https://unsplash.com/@liu675352566?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chen Liu</a> on <a href="https://unsplash.com/photos/zL7C-G2U7sw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
+Completed React Assignment for MCDA-5510 
+
+This website navigates to two pages "About Me" and "My Town" using react router dom.
+In the "My Town" page, temperature for my town is fetched using API and displayed.

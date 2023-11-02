@@ -20,7 +20,7 @@
   margin-top: 10px;
 }
 
-a {
+.navbar a {
   margin-top: 10px;
   padding: 15px 25px;
   font-size: 1.2rem;
@@ -33,7 +33,7 @@ a:hover {
   cursor: pointer;
 }
 
-a.selected {
+.isSelected {
   font-weight: bold;
   color: rgb(0, 255, 157);
   border-bottom: 2px solid rgb(0, 255, 157);
@@ -71,12 +71,19 @@ a.selected {
 p {
   font-size: 1.1rem;
   font-family: cursive;
-  width: 50%;
   text-align: justify;
 }
 
+.aboutpage-text {
+  width: 50%;
+}
+
+.description {
+  margin-right: 20px;
+}
+
 .halifax-image {
-  width: 60%;
+  width: 500px;
   margin: 10px;
   border: 2px black solid;
   border-radius: 5px;
@@ -84,46 +91,41 @@ p {
   box-shadow: 10px 10px 20px slategray;
 }
 
-.widgetCard {
-  boarder: 1px solid black;
+.photo-credit {
+  margin: 2% 25%;
 }
 
-.convert-btn {
+.weather-widget {
+  width: 80%;
+}
+
+.weather-display {
+  display: inline-block;
   width: 40%;
-  height: 100%;
-  background-color: greenyellow;
+  vertical-align: top;
 }
 
-/* CSS */
+.weather-image {
+  margin-top: 10px;
+  width: 60%;
+}
+
+.temperature {
+  justify-content: flex-end;
+}
+
 .convert-btn {
+  width: 100%;
   background-color: #13aa52;
-  border: 1px solid #13aa52;
+  border: 2px solid black;
   border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
-  box-sizing: border-box;
-  color: #fff;
   cursor: pointer;
-  /* font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px; */
-  font-weight: 400;
-  outline: none;
-  outline: 0;
+  font-weight: bold;
   padding: 10px 25px;
   text-align: center;
-  transform: translateY(0);
-  transition: transform 150ms, box-shadow 150ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
 }
 
 .convert-btn:hover {
   box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
   transform: translateY(-2px);
-}
-
-@media (min-width: 768px) {
-  .convert-btn {
-    padding: 10px 30px;
-  }
 }
